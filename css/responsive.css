@@ -1,0 +1,760 @@
+/* ================= extra small device ================= */
+@media (min-width:320px) and (max-width: 575px) {
+    /* ===============Header part start=============== */
+    header{
+        padding: 0 0 35px 0;
+    }
+    header .menu{
+        display: block;
+        position: absolute;
+        top: 60%;
+        left: 0%;
+    }
+    header .menu a{
+        display: inline-block;
+        color: #000000;
+    }
+    header .logo img{
+        width: 21%;
+        margin-top: 20px;
+    }
+    header .search{
+        width: 50%;
+        position: absolute;
+        top: 10px;
+        right: 15px;
+    }
+    header .search input{
+        color: #000000 !important;
+        font-size: 13px;
+    }
+    ::placeholder{
+        color: #000000;
+        font-size: 13px;
+        opacity: .8;
+    }
+    header .search button i{
+        font-size: 13px;
+        padding-left: 5px;
+        color: #000000 !important;
+        opacity: .8;
+    }
+    header   .user__option{
+        position: absolute;
+        top: 65%;
+        left: 14%;
+    }
+    header .love__option{
+        position: absolute;
+        top: 60px;
+        left: 48%;
+    }
+    header .store__option{
+        position: absolute;
+        top: 60px;
+        right: 25%;
+    }
+    header .price__option{
+        position: absolute;
+        top: 60px;
+        right: 5%;
+    }
+
+    /* ===============Header part end=============== */
+    /* =============== side bar part start=============== */
+    .side__bar__menu__part{
+       width: 100%;
+       height: 70%;
+       top: 104px;
+       left: 0;
+       display: none;
+       padding-top: 20px;
+
+    }
+    /* =============== side bar part end=============== */
+    /* =============== banner part start=============== */
+    .banner__section .banner__overlay{
+        padding-top: 150px !important;
+    }
+    .banner__section .banner__slider .banner .banner__overlay h2{
+        font-size: 30px;
+    }
+    .banner__section .banner__slider .banner .banner__overlay h4{
+        color: #ffffff;
+        font-size: 20px;
+    }
+    /* =============== banner part end=============== */
+    /* =============== offer  part start=============== */
+    #offer__section .offer__one{
+        margin-bottom: 40px;
+        padding-right: 50px;
+
+    }
+    #offer__section .offer__one img{
+        width: 35%;
+    }
+    #offer__section .offer__one h3{
+        font-size: 12px;
+    }
+    #offer__section .offer__one h3 span{
+        font-size: 17px;
+    }
+    #offer__section .offer__one h5{
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    #offer__section .offer__one p {
+        font-size: 16px;
+    }
+    #offer__section .offer__one .buy{
+        top: 100% !important;
+        right: 0 !important;
+    }
+    #offer__section .offer__one:hover .buy{
+        top: 80%!important;
+    }
+    #offer__section .offer__one .buy a{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 25%;
+        border-top-right-radius: 25%;
+        font-size: 12px;
+    }
+    #offer__section .offer__two{
+        margin-bottom: 40px;
+        padding-right: 50px;
+
+    }
+    #offer__section .offer__two img{
+        width: 26%;
+        top: 8px;
+        right: 8px;
+    }
+    #offer__section .offer__two h3{
+        font-size: 12px;
+    }
+    #offer__section .offer__two h3 span{
+        font-size: 14px;
+    }
+   
+    #offer__section .offer__two p {
+        font-size: 14px;
+        padding-top: 8px;
+    }
+    #offer__section .offer__two p span {
+        font-size: 12px;
+    }
+    #offer__section .offer__two .buy{
+        top: 100% !important;
+        right: 0 !important;
+    }
+    #offer__section .offer__two:hover .buy{
+        top: 80%!important;
+    }
+    #offer__section .offer__two .buy a{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 25%;
+        border-top-right-radius: 25%;
+        font-size: 12px;
+    }
+    /* =============== offer part end=============== */
+    /* ===============product section start=============== */
+    #product__section h1{
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    #product__section .product__one .pdct__title h2{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    #product__section .discount__code h4,
+    #product__section .discount__code h6{
+        font-size: 18px;
+    }
+    #product__section .discount__code span{
+        bottom: 4%;
+    }
+    #product__section .discount__code2 a{
+        font-size: 14px;
+        padding: 2px 6px;
+    }
+    #product__section .discount__code span img {
+        width: 116px;
+    }
+    #product__section .biggest__offer{
+        padding: 0 0;
+    }
+    #product__section .biggest__offer .next {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        right: -24px;
+    }
+    #product__section .biggest__offer .prev {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        left: -24px;
+    }
+    /* =============== product  section  end=============== */
+    /* =============== footer section start=============== */
+    footer{
+        padding: 15px 0;
+    }
+    footer .logo__ftr{
+        text-align: center;
+        border-bottom: 1px solid #ff7b00;
+        padding-bottom: 8px;
+    }
+    footer p{
+        margin-bottom: 10px;
+    }
+    footer h2{
+        margin-bottom: 0;
+        font-size: 16px;
+        color: #ff5100;
+        border-bottom: 1px solid #ff7b00;
+        padding-bottom: 5px;
+    }
+    footer ul{
+        padding: 10px 0;
+    }
+    footer ul li{
+        display: inline-block;
+        padding-right: 5px;
+    }
+    footer ul li a{
+        font-size: 14px;
+        border-right: 1px solid  #462201;
+        padding: 0 5px;
+    }
+    /* =============== footer section start=============== */
+    
+}
+
+/* =================  small device ================= */
+@media (min-width:576px) and (max-width: 767px) {
+    /* ===============Header part start=============== */
+    header{
+        padding: 0 0 35px 0;
+    }
+    header .menu{
+        display: block;
+        position: absolute;
+        top: 52%;
+        left: 0%;
+    }
+    header .menu a{
+        display: inline-block;
+        color: #000000;
+    }
+    header .logo img{
+        width: 18%;
+        margin-top: 20px;
+    }
+    header .search{
+        width: 50%;
+        position: absolute;
+        top: 10px;
+        right: 15px;
+    }
+    header .search input{
+        color: #000000 !important;
+        font-size: 13px;
+    }
+    ::placeholder{
+        color: #000000;
+        font-size: 13px;
+        opacity: .8;
+    }
+    header .search button i{
+        font-size: 13px;
+        padding-left: 5px;
+        color: #000000 !important;
+        opacity: .8;
+    }
+    header   .user__option{
+        position: absolute;
+        top: 36%;
+        left: 14%;
+    }
+    header .love__option{
+        position: absolute;
+        top: 60px;
+        left: 48%;
+    }
+    header .store__option{
+        position: absolute;
+        top: 60px;
+        right: 25%;
+    }
+    header .price__option{
+        position: absolute;
+        top: 60px;
+        right: 5%;
+    }
+
+    /* ===============Header part end=============== */
+    /* =============== side bar part start=============== */
+    .side__bar__menu__part{
+       width: 100%;
+       height: 70%;
+       top: 104px;
+       left: 0;
+       display: none;
+       padding-top: 20px;
+
+    }
+    /* =============== side bar part end=============== */
+    /* =============== banner part start=============== */
+    .banner__section .banner__overlay{
+        padding-top: 150px !important;
+    }
+    .banner__section .banner__slider .banner .banner__overlay h2{
+        font-size: 30px;
+    }
+    .banner__section .banner__slider .banner .banner__overlay h4{
+        color: #ffffff;
+        font-size: 20px;
+    }
+    /* =============== banner part end=============== */
+    /* =============== offer  part start=============== */
+    #offer__section .offer__one{
+        margin-bottom: 40px;
+        padding-right: 50px;
+
+    }
+    #offer__section .offer__one img{
+        width: 28%;
+    }
+    #offer__section .offer__one h3{
+        font-size: 12px;
+    }
+    #offer__section .offer__one h3 span{
+        font-size: 26px;
+    }
+    #offer__section .offer__one h5{
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    #offer__section .offer__one p {
+        font-size: 16px;
+    }
+    #offer__section .offer__one .buy{
+        top: 100% !important;
+        right: 0 !important;
+    }
+    #offer__section .offer__one:hover .buy{
+        top: 80%!important;
+    }
+    #offer__section .offer__one .buy a{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 25%;
+        border-top-right-radius: 25%;
+        font-size: 12px;
+    }
+    #offer__section .offer__two{
+        margin-bottom: 40px;
+        padding-right: 50px;
+
+    }
+    #offer__section .offer__two img{
+        width: 22%;
+        top: 8px;
+        right: 8px;
+    }
+    #offer__section .offer__two h3{
+        font-size: 12px;
+    }
+    #offer__section .offer__two h3 span{
+        font-size: 26px;
+    }
+   
+    #offer__section .offer__two p {
+        font-size: 14px;
+        padding-top: 8px;
+    }
+    #offer__section .offer__two p span {
+        font-size: 12px;
+    }
+    #offer__section .offer__two .buy{
+        top: 100% !important;
+        right: 0 !important;
+    }
+    #offer__section .offer__two:hover .buy{
+        top: 80%!important;
+    }
+    #offer__section .offer__two .buy a{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 25%;
+        border-top-right-radius: 25%;
+        font-size: 12px;
+    }
+    /* =============== offer part end=============== */
+    /* ===============product section start=============== */
+    #product__section h1{
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    #product__section .product__one .pdct__title h2{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    #product__section .discount__code h4,
+    #product__section .discount__code h6{
+        font-size: 18px;
+    }
+    #product__section .discount__code span{
+        bottom: 4%;
+    }
+    #product__section .discount__code2 a{
+        font-size: 14px;
+        padding: 2px 6px;
+    }
+    #product__section .discount__code span img {
+        width: 116px;
+    }
+    #product__section .biggest__offer{
+        padding: 0 0;
+    }
+    #product__section .biggest__offer .next {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        right: -24px;
+    }
+    #product__section .biggest__offer .prev {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        left: -24px;
+    }
+    /* =============== product  section  end=============== */
+    /* =============== footer section start=============== */
+    footer{
+        padding: 15px 0;
+    }
+    footer .logo__ftr{
+        text-align: center;
+        border-bottom: 1px solid #ff7b00;
+        padding-bottom: 8px;
+    }
+    footer p{
+        margin-bottom: 10px;
+    }
+    footer h2{
+        margin-bottom: 0;
+        font-size: 16px;
+        color: #ff5100;
+        border-bottom: 1px solid #ff7b00;
+        padding-bottom: 5px;
+    }
+    footer ul{
+        padding: 10px 0;
+    }
+    footer ul li{
+        display: inline-block;
+        padding-right: 5px;
+    }
+    footer ul li a{
+        font-size: 14px;
+        border-right: 1px solid  #462201;
+        padding: 0 5px;
+    }
+    /* =============== footer section start=============== */
+    
+}
+
+/* =================  medium device ================= */
+@media (min-width:768px) and (max-width: 991px) {
+    /* ===============Header part start=============== */
+    header{
+        padding: 0 0 35px 0;
+    }
+    header .menu{
+        display: block;
+        position: absolute;
+        top: 52%;
+        left: 0%;
+    }
+    header .menu a{
+        display: inline-block;
+        color: #000000;
+    }
+    header .logo img{
+        width: 18%;
+        margin-top: 20px;
+    }
+    header .search{
+        width: 50%;
+        position: absolute;
+        top: 10px;
+        right: 15px;
+    }
+    header .search input{
+        color: #000000 !important;
+        font-size: 13px;
+    }
+    ::placeholder{
+        color: #000000;
+        font-size: 13px;
+        opacity: .8;
+    }
+    header .search button i{
+        font-size: 13px;
+        padding-left: 5px;
+        color: #000000 !important;
+        opacity: .8;
+    }
+    header   .user__option{
+        position: absolute;
+        top: 36%;
+        left: 14%;
+    }
+    header .love__option{
+        position: absolute;
+        top: 60px;
+        left: 48%;
+    }
+    header .store__option{
+        position: absolute;
+        top: 60px;
+        right: 25%;
+    }
+    header .price__option{
+        position: absolute;
+        top: 60px;
+        right: 5%;
+    }
+
+    /* ===============Header part end=============== */
+    /* =============== side bar part start=============== */
+    .side__bar__menu__part{
+       width: 100%;
+       height: 70%;
+       top: 104px;
+       left: 0;
+       display: none;
+       padding-top: 20px;
+
+    }
+    /* =============== side bar part end=============== */
+    /* =============== banner part start=============== */
+    .banner__section .banner__overlay{
+        padding-top: 150px !important;
+    }
+    .banner__section .banner__slider .banner .banner__overlay h2{
+        font-size: 30px;
+    }
+    .banner__section .banner__slider .banner .banner__overlay h4{
+        color: #ffffff;
+        font-size: 20px;
+    }
+    /* =============== banner part end=============== */
+    /* =============== offer  part start=============== */
+    #offer__section .offer__one{
+        margin-bottom: 40px;
+        padding-right: 50px;
+
+    }
+    #offer__section .offer__one img{
+        width: 43%;
+    }
+    #offer__section .offer__one h3{
+        font-size: 12px;
+    }
+    #offer__section .offer__one h3 span{
+        font-size: 22px;
+    }
+    #offer__section .offer__one h5{
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    #offer__section .offer__one p {
+        font-size: 16px;
+    }
+    #offer__section .offer__one .buy{
+        top: 100% !important;
+        right: 0 !important;
+    }
+    #offer__section .offer__one:hover .buy{
+        top: 80%!important;
+    }
+    #offer__section .offer__one .buy a{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 25%;
+        border-top-right-radius: 25%;
+        font-size: 12px;
+    }
+    #offer__section .offer__two{
+        margin-bottom: 40px;
+        padding-right: 50px;
+
+    }
+    #offer__section .offer__two img{
+        width: 38%;
+        top: 8px;
+        right: 8px;
+    }
+    #offer__section .offer__two h3{
+        font-size: 12px;
+    }
+    #offer__section .offer__two h3 span{
+        font-size: 22px;
+        font-weight: 400;
+    }
+   
+    #offer__section .offer__two p {
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    #offer__section .offer__two p span {
+        font-size: 12px;
+    }
+    #offer__section .offer__two .buy{
+        top: 100% !important;
+        right: 0 !important;
+    }
+    #offer__section .offer__two:hover .buy{
+        top: 80%!important;
+    }
+    #offer__section .offer__two .buy a{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 25%;
+        border-top-right-radius: 25%;
+        font-size: 12px;
+    }
+    /* =============== offer part end=============== */
+    /* ===============product section start=============== */
+    #product__section h1{
+        font-size: 32px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    #product__section .product__one .pdct__title h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #product__section .discount__code h4,
+    #product__section .discount__code h6{
+        font-size: 18px;
+    }
+    #product__section .discount__code span{
+        bottom: 20%;
+    }
+    #product__section .discount__code2 a{
+        font-size: 18px;
+        padding: 5px 15px;
+    }
+    #product__section .discount__code span img {
+        width: 166px;
+    }
+    #product__section .biggest__offer{
+        padding: 0 0;
+    }
+    #product__section .biggest__offer .next {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        right: -24px;
+    }
+    #product__section .biggest__offer .prev {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        left: -24px;
+    }
+    /* =============== product  section  end=============== */
+    /* =============== footer section start=============== */
+    footer{
+        padding: 25px 0;
+    }
+    footer .logo__ftr{
+        padding-bottom: 8px;
+    }
+    footer .logo__ftr img {
+        width: 80%;
+    }
+    footer p{
+        margin-bottom: 10px;
+    }
+    footer h2{
+        margin-bottom: 0;
+        font-size: 16px;
+        color: #ff5100;
+        border-bottom: 1px solid #ff7b00;
+        padding-bottom: 5px;
+        margin-top: 0px;
+    }
+   
+    /* =============== footer section start=============== */
+    
+}
+/* =================  large device ================= */
+@media (min-width:992px) and (max-width: 1179px) {
+    .side__bar__menu__part {
+        width: 195px;
+        left: -4px;
+      }
+      .side__bar__menu__part .Decorated__House .DH__pstn{
+          width: 160px;
+      }
+    /* =============== offer  part start=============== */
+    #offer__section .offer__one{
+        margin-bottom: 40px;
+        padding-right: 50px;
+
+    }
+    #offer__section .offer__one img{
+        width: 36%;
+    }
+    #offer__section .offer__one h3{
+        font-size: 12px;
+    }
+    #offer__section .offer__one h3 span{
+        font-size: 22px;
+    }
+    #offer__section .offer__one h5{
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    #offer__section .offer__one p {
+        font-size: 16px;
+    }
+  
+    #offer__section .offer__two{
+        margin-bottom: 40px;
+        padding-right: 50px;
+
+    }
+    #offer__section .offer__two img{
+        width: 30%;
+        top: 8px;
+        right: 8px;
+    }
+    #offer__section .offer__two h3{
+        font-size: 12px;
+    }
+    #offer__section .offer__two h3 span{
+        font-size: 22px;
+        font-weight: 400;
+    }
+   
+    #offer__section .offer__two p {
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    #offer__section .offer__two p span {
+        font-size: 12px;
+    }
+
+    /* =============== offer part end=============== */
+ 
+}

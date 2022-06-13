@@ -1,0 +1,162 @@
+#offer__section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .offer__one{
+    background: #2a2a2a;
+    box-shadow: 0px 0px 5px 0px #b1b1b1;
+    position: relative;
+    padding: 20px 15px;
+    padding-right: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    &:hover .buy{
+      top: 0;
+    }
+    .buy{
+        position: absolute;
+        top: -60px;
+        left: 45%;
+        transition: .4s all ease-in-out; 
+        -webkit-transition: .4s all ease-in-out;
+        -moz-transition: .4s all ease-in-out;
+        -ms-transition: .4s all ease-in-out;
+        -o-transition: .4s all ease-in-out;
+            a{
+            display: inline-block;
+            font-family: 'Rubik', sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+            color:  #ffffff;
+            background: #ff7b00;
+            padding: 5px 5px;
+            padding-bottom: 10px;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            transition: .4s all ease-in-out;
+            -webkit-transition: .4s all ease-in-out;
+            -moz-transition: .4s all ease-in-out;
+            -ms-transition: .4s all ease-in-out;
+            -o-transition: .4s all ease-in-out;
+               &:hover{
+                color: #ff7b00;
+                background: #ffffff;
+            }
+        }
+    }
+    h3{
+        font-family: 'Rubik', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color:  #ff7b00;
+        span{
+            display: block;
+            font-size: 28px;
+            color:  #deb887;
+        }
+    }
+    h5{
+        font-family: 'Rubik', sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        color:  #ff7b00;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+    p{
+        font-family: 'Rubik', sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        color:  #ffffff;
+       span{
+        color: #fcfcfc;
+        font-size: 14px;
+        padding-right: 5px;
+       }
+    }
+    img{
+        position:absolute;
+        top: 0;
+        right: 0;
+        width: 164px;
+    }
+}
+.offer__two{
+    background: #1d1d1d;
+box-shadow: 0px 0px 5px 0px #b1b1b1;
+position: relative;
+padding: 20px 15px;
+padding-right: 200px;
+cursor: pointer;
+overflow: hidden;
+&:hover .buy{
+    top: 0;
+  }
+  .buy{
+      position: absolute;
+      top: -60px;
+      left: 45%;
+      transition: .4s all ease-in-out; 
+      -webkit-transition: .4s all ease-in-out;
+      -moz-transition: .4s all ease-in-out;
+      -ms-transition: .4s all ease-in-out;
+      -o-transition: .4s all ease-in-out;
+          a{
+          display: inline-block;
+          font-family: 'Rubik', sans-serif;
+          font-size: 14px;
+          font-weight: 300;
+          color:  #ffffff;
+          background: #ff7b00;
+          padding: 5px 5px;
+          padding-bottom: 10px;
+          border-bottom-left-radius: 50%;
+          border-bottom-right-radius: 50%;
+          transition: .4s all ease-in-out;
+          -webkit-transition: .4s all ease-in-out;
+          -moz-transition: .4s all ease-in-out;
+          -ms-transition: .4s all ease-in-out;
+          -o-transition: .4s all ease-in-out;
+             &:hover{
+              color: #ff7b00;
+              background: #ffffff;
+          }
+      }
+  }
+h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color:  #ff7b00;
+    span{
+        display: block;
+        font-size: 32px;
+        color:  #deb887;
+        margin-top: 10px;
+    }
+}
+p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color:  #ffffff;
+    padding-top: 27px;
+   span{
+    color: #fcfcfc;
+    font-size: 14px;
+    padding-right: 5px;
+   }
+   }
+img{
+    position:absolute;
+    top: 14px;
+    right: 19px;
+    width: 140px;
+    box-shadow: 0px 0px 5px 0px #ffffff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+}
+}
